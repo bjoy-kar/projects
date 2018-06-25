@@ -103,6 +103,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* ==========================================================================
    Nav's custom styles
@@ -143,6 +148,13 @@ body {
 }
 
 
+/* ==========================================================================
+   Explore custom styles
+   ========================================================================== */
+.custom_explore_image {}
+.custom_explore_image img {
+    border-radius: 5px;
+}
 
 
 
