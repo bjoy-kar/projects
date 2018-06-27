@@ -151,13 +151,27 @@ img {
 /* ==========================================================================
    Explore custom styles
    ========================================================================== */
-.custom_explore_image {}
 .custom_explore_image img {
     border-radius: 5px;
 }
 .custom_explore_icon i {
     color: #ffffff;
     background: #333333;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+
+
+/* ==========================================================================
+   Create custom styles
+   ========================================================================== */
+.custom_create_image img {
+    border-radius: 5px;
+}
+.custom_create_icon i {
+    color: #007bff;
+    background: #ffffff;
     padding: 4px;
     border-radius: 3px;
     font-size: 30px;
