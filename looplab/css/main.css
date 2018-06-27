@@ -178,6 +178,19 @@ img {
 }
 
 
+/* ==========================================================================
+   Share custom styles
+   ========================================================================== */
+.custom_share_image img {
+    border-radius: 5px;
+}
+.custom_share_icon i {
+    color: #ffffff;
+    background: #333333;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 30px;
+}
 
 
 
