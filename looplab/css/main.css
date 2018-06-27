@@ -136,7 +136,7 @@ img {
     background: rgba(0, 0, 0, 0.7);
     min-height: 700px;
 }
-.custom_icon {
+.custom_icon i {
     color: #007bff;
     background: #ffffff;
     padding: 4px;
@@ -155,7 +155,13 @@ img {
 .custom_explore_image img {
     border-radius: 5px;
 }
-
+.custom_explore_icon i {
+    color: #ffffff;
+    background: #333333;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 30px;
+}
 
 
 
