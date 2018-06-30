@@ -12,7 +12,8 @@
   	<link rel="apple-touch-icon" href="icon.png">
   	<!-- Place favicon.ico in the root directory -->
   	<link rel="shortcut icon" type="image/x-icon" href="img/mlogo.png">
-  
+  	
+  	<link rel="stylesheet" href="css/navbar-fixed.css">
   	<link rel="stylesheet" href="css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/normalize.css">
   	<link rel="stylesheet" href="css/main.css">
@@ -24,14 +25,31 @@
   	<![endif]-->
 
   	<!-- Add your site or application content here -->
-  	<nav>
-    	 
+  	<nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top custom_navbar">
+    	<div class="container">
+    		<a href="#showcase" id="showcase" class="navbar-brand showcase">
+    			<img src="img/mlogo.png" alt="Logo">
+    			<h3 class="d-inline align-middle">Mizuxe</h3>
+    		</a>
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsivemenu">
+			    <span class="navbar-toggler-icon"></span>
+			</button>
+    		<div class="collapse navbar-collapse" id="responsivemenu">
+    			<ul class="navbar-nav ml-auto custom_nav">
+	    			<li class="nav-item"><a class="nav-link" href="#showcase">Home</a></li>
+	    			<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+	    			<li class="nav-item"><a class="nav-link" href="#authors">Meet The Authors</a></li>
+	    			<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+	    		</ul>
+    		</div>
+    	</div> 
     </nav>
 
 
   	<script src="js/vendor/modernizr-3.6.0.min.js"></script>
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   	<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.slim.min.js"><\/script>')</script>
+	<script src="js/vendor/navbar-fixed.js"></script>
 	<script src="js/vendor/popper.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
   	<script src="js/plugins.js"></script>
